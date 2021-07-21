@@ -4,24 +4,37 @@ h1 {
     font-style: normal; 
     font-weight: normal; 
     font-variant: small-caps; 
-    font-size: 40px; 
+    font-size: 72px; 
+    /*You can use `color: x` to change the font color*/ 
+    margin-top: 10px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border-width: 5px; 
+    border-style: solid; 
+    border-radius: 30px; /*makes the corners rounded*/ 
+    border-color: black; /*defaulted to the color of the text content (black) in Chrome, may differ between browsers*/
+    background-color: white; 
+}
+
+div{
+    font-family: "Bodoni MT", "Times New Roman", serif; 
+    font-weight: normal; 
+    margin-left: 80px; 
+    margin-right: 80px; 
+    /*`background-color: x` will create a box surrounding the elements in the div with specified color*/
 }
 
 h2 {
-    font-family: "Bodoni MT", "Times New Roman", serif; 
     font-style: italic; 
-    font-weight: normal; 
     font-size: 30px; 
-    margin-left: 80px;
 }
 
 ul {
-    font-family: "Bodoni MT", "Times New Roman", serif; 
     font-style: normal; 
-    font-weight: normal; 
     font-size: 24px; 
 }
 
 body {
     background-color: lightblue; 
+    /* You can use `background-image: url("x")` to set an image for the background*/ 
 }
