@@ -2,15 +2,25 @@
 <html>
     <head>
         <title> Ava's Portfolio </title>
-        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="style.css" type="text/css"> 
+        <!-- Alternative way to do it: 
+        <style>
+            p { <- saying that you are selecting all of the p tags on the page 
+                color: green; <- says what you want to do to all of the p tags 
+                font-size: 72px; 
+            }
+        </style> 
+        ^ adding CSS language into the HTML doc-->
     </head>
     <body>
-        <h1>Ava's Portfolio</h1>
-        <h2>Projects Worked On:<h2>
-        <ul> <!--"ul" = unordered list, showBs it in BULLETS  vs. "ol" (ordered list), which shows in NUMBERS-->
-            <li>Fish</li>
-            <li>Car</li>
-            <li>Flower</li>
-        </ul>
+        <h1 style="color:black; font-size: 72px">Ava's Portfolio</h1> <!--"color" is the property and "black" is the value, forming a property-value pair. Separate each p-v pair with a semicolon, include all pairs within the "" after style=. This is the less efficient method.-->
+        <div> <!--CSS styles apply to everything within the div-->
+            <h2>Projects Worked On:<h2>
+            <ul> <!--"ul" = unordered list, showBs it in BULLETS  vs. "ol" (ordered list), which shows in NUMBERS-->
+                <li>Fish</li>
+                <li>Car</li>
+                <li>Flower</li>
+            </ul>
+        </div>
     </body> 
 </html> 
